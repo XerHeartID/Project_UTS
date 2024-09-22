@@ -1,0 +1,29 @@
+[
+  {
+    "key": "1",
+    "img": "icon.jpg",
+    "imgAlt": "Img1",
+    "title": "Tutorial Belajar ReactJS Lengkap",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum et est non condimentum. Fusce odio neque, fermentum sed tortor a, auctor finibus tortor. Praesent ullamcorper dolor et odio pretium commodo. Proin laoreet a mauris vel aliquam.",
+    "tags": ["frontend", "react"],
+    "date": "09-22-2024"
+  },
+  {
+    "key": "2",
+    "img": "icon.jpg",
+    "imgAlt": "Img2",
+    "title": "Meningkatkan Performa Website Di ReactJS",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum et est non condimentum. Fusce odio neque, fermentum sed tortor a, auctor finibus tortor. Praesent ullamcorper dolor et odio pretium commodo. Proin laoreet a mauris vel aliquam.",
+    "tags": ["frontend", "react"],
+    "date": "09-23-2024"
+  },
+  {
+    "key": "3",
+    "img": "icon.jpg",
+    "imgAlt": "Img3",
+    "title": "Panduan Awal NextJS Untuk Pemula",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum et est non condimentum. Fusce odio neque, fermentum sed tortor a, auctor finibus tortor. Praesent ullamcorper dolor et odio pretium commodo. Proin laoreet a mauris vel aliquam.",
+    "tags": ["framework", "react"],
+    "date": "09-24-2024"
+  }
+]
