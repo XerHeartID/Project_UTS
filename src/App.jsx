@@ -1,14 +1,18 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages";
 import "boxicons/css/boxicons.min.css";
+import Header from "./components/header";
+import Footer from "./components/footer";
 
 function App() {
   return (
-      <BrowserRouter>
+      <Router>
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
-      </BrowserRouter>
+        <Footer />
+      </Router>
   );
 }
 

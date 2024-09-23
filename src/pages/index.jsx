@@ -1,7 +1,5 @@
 import { useState, useEffect } from "react";
 import Article from "../components/article";
-import Footer from "../components/footer";
-import Header from "../components/header";
 
 function Home() {
   const [posts, setPosts] = useState([]);
@@ -15,7 +13,6 @@ function Home() {
   
   return (
     <>
-      <Header />
       <h1 className="text-2xl md:text-3xl font-semibold">Simple Blog</h1>
       <div className="md:mx-4">
         {posts.length > 0 ? (
@@ -34,7 +31,6 @@ function Home() {
           <p>Loading articles...</p>
         )}
       </div>
-      <Footer />
     </>
   );
 }
