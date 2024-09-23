@@ -16,8 +16,8 @@ function Home() {
   return (
     <>
       <Header />
-      <h1 className="text-3xl font-semibold">Simple Blog</h1>
-      <div className="mx-4">
+      <h1 className="text-2xl md:text-3xl font-semibold">Simple Blog</h1>
+      <div className="md:mx-4">
         {posts.length > 0 ? (
           posts.map((post) => (
             <Article

@@ -5,7 +5,10 @@ export default {
     extend: {
       colors: {
         'bgdark': '#242424',
-      }
+      },
+      screens: {
+        'tm': '540px',
+      },  
     },
   },
   plugins: [],
